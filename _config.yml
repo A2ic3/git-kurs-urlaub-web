@@ -1,0 +1,9 @@
+title: Urlaub Mallorca
+author:
+  name: Alice & Michael
+description: + Git lernen
+
+# Nutze aktuelle version des Minima Themes
+plugins:
+  - jekyll-remote-theme
+remote_theme: jekyll/minima
