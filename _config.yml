@@ -7,3 +7,16 @@ description: + Git lernen
 plugins:
   - jekyll-remote-theme
 remote_theme: jekyll/minima
+
+header_pages:
+  - content/urlaub.md
+  - content/vokabeln.md
+
+# Nutze "default" layout für alle Seiten
+# verhindert doppelte Überschrift
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
